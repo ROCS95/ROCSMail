@@ -68,3 +68,30 @@ color: #fff;
 h1{
     color: white;
 }
+
+#mail ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 50px;
+    width: 700px;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+}
+#mail ul li {
+    background-color: #666;
+    border-left: 10px solid #666;
+}
+#mail ul li a {
+    color: #ccc;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 10px 10px 20px;
+    border-left: 10px solid #666;
+}
+#mail ul li a:hover {
+    background: #000;
+    border-left: 10px solid #333;
+    color: #fff;
+    border-left: 10px solid #666;
+}
